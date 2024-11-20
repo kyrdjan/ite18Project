@@ -7,11 +7,15 @@
     <link rel="stylesheet" href="./style.css">
 </head>
 <body>
-    <canvas class="webgl"> </canvas>
-    <script type="importmap">{
-	  "imports": {
-		  "three": "https://threejs.org/build/three.module.js"
-      }
-    }</script>
+    <canvas class="webgl"></canvas>
+    <script type="importmap">
+    {
+        "imports": {
+            "three": "https://threejs.org/build/three.module.js"
+        }
+    }
+    </script>
+    <!-- Connect the external script -->
+    <script src="./script.js" type="module"></script>
 </body>
 </html>
